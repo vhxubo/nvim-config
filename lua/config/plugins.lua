@@ -24,11 +24,13 @@ return packer.startup(function(use)
 	use "kyazdani42/nvim-tree.lua"
 	use "akinsho/bufferline.nvim"
   -- use "moll/vim-bbye"
+  -- need tpope/vim-repeat
   use "ggandor/lightspeed.nvim"
   use "akinsho/toggleterm.nvim"
 
 	use "machakann/vim-sandwich"
 	use "numToStr/Comment.nvim"
+  use "windwp/nvim-autopairs"
 
   use "ellisonleao/gruvbox.nvim"
   use "goolord/alpha-nvim"

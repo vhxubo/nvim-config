@@ -11,6 +11,7 @@ require "config.lightspeed"
 require "config.keymap"
 require "config.lsp"
 require "config.cmp"
+require "config.autopairs"
 
 vim.cmd [[
   augroup YankHighlight
