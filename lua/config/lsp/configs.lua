@@ -5,7 +5,7 @@ end
 
 local lspconfig = require("lspconfig")
 
-local servers = { "jsonls", "sumneko_lua", "vuels", "html", "cssls" }
+local servers = { "jsonls", "sumneko_lua", "vuels", "html", "cssls", "vimls", "eslint", "emmet_ls", "tsserver" }
 
 lsp_installer.setup {
   ensure_installed = servers

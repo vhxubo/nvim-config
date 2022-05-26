@@ -1,12 +1,15 @@
-local status_ok, null_ls = pcall(require, "null_ls")
+local status_ok, null_ls = pcall(require, "null-ls")
 if not status_ok then
   return
 end
 
+local b = null_ls.builtins
+
 null_ls.setup {
   sources = {
-    require("null-ls").builtins.formatting.stylua,
-    require("null-ls").builtins.diagnostics.eslint,
-    require("null-ls").builtins.completion.spell,
+    b.formatting.prettierd,
+    b.formatting.stylua,
+    b.diagnostics.eslint,
+    b.completion.spell,
   },
 }

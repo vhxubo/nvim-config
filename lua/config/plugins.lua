@@ -24,7 +24,7 @@ return packer.startup(function(use)
 	use "kyazdani42/nvim-tree.lua"
 	use "akinsho/bufferline.nvim"
   -- use "moll/vim-bbye"
-  -- need tpope/vim-repeat
+  -- depend tpope/vim-repeat
   use "ggandor/lightspeed.nvim"
   use "akinsho/toggleterm.nvim"
 
@@ -43,6 +43,7 @@ return packer.startup(function(use)
   -- lsp
   use	"williamboman/nvim-lsp-installer"
   use	"neovim/nvim-lspconfig"
+  -- depend plenary
   use "jose-elias-alvarez/null-ls.nvim"
 
   -- snippets
